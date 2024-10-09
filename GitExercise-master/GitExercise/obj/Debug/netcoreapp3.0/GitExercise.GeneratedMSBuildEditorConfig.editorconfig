@@ -1,5 +1,3 @@
 is_global = true
 build_property.RootNamespace = GitExercise
-build_property.ProjectDir = C:\Users\User\Desktop\Dariyan's book\GitExercise-master\GitExercise\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = D:\Calculator\Calculator\GitExercise-master\GitExercise\
