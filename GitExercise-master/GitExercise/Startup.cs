@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection.Metadata.Ecma335;
 
 namespace GitExercise
 {
@@ -34,6 +35,15 @@ namespace GitExercise
                     break;
                 case "m":
                     OptionsManager.Multiply(a, b);
+                    break;
+                case "pow":
+                    OptionsManager.Power(a, b);
+                    break;
+                case "log":
+                OptionsManager.Log(a, b);
+                    break;
+                case "fact":
+                    OptionsManager.Factorial(a, b);
                     break;
             }
 
