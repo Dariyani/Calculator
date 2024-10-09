@@ -24,6 +24,13 @@ namespace GitExercise
             Console.Write("Option: ");
             string choice = Console.ReadLine();
 
+            while (true) 
+            { 
+                Console.Clear();
+                Console.WriteLine("Console Calculator App");
+                Console.WriteLine(new string(c:'-',count:15));
+            }
+
             switch (choice)
             {
                 case "a":
@@ -35,6 +42,14 @@ namespace GitExercise
                 case "m":
                     OptionsManager.Multiply(a, b);
                     break;
+                case "dr":
+                    OptionsManager.DivideRemainder(a, b);
+                    break;
+                case "ex":
+                    Console.Clear();
+                    Console.WriteLine("Goodbye");
+                    Console.ReadKey(intercept: true);
+                    return;
             }
 
             Console.WriteLine("Press any key to close the app...");
