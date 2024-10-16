@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 is_global = true
 build_property.RootNamespace = GitExercise
 build_property.ProjectDir = C:\Users\dariy\Desktop\Projects with Desi\Projects GitHub\Calculator\GitExercise-master\GitExercise\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+=======
+is_global = true
+build_property.RootNamespace = GitExercise
+build_property.ProjectDir = C:\teodor21\Calculator\GitExercise-master\GitExercise\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+>>>>>>> refs/remotes/origin/main

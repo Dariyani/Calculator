@@ -8,9 +8,14 @@ namespace GitExercise
             "a - Add",
             "s - Subtract",
             "m - Multiply",
+
             "pow - Power",
             "log - Logarithm",
             "fact - Sum of 2 factorials"
+
+            "dr - Divide Remainder",
+            "ex - Exit"
+
         };
 
         public static void Add(double a, double b)
@@ -27,6 +32,7 @@ namespace GitExercise
         {
             Console.WriteLine($"{a} - {b} = {a - b}");
         }
+
         public static void Power(double a, double b)
         {
             Console.WriteLine($"{a} ^ {b} = {Math.Pow(a,b)}");
@@ -50,5 +56,12 @@ namespace GitExercise
             }
             return result;
         }
+
+        public static void DivideRemainder(double a, double b)
+        {
+            Console.WriteLine($"{a}%{b}={a%b}");
+        }
+		
+
     }
 }
