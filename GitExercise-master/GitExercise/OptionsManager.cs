@@ -9,6 +9,7 @@ namespace GitExercise
             "s - Subtract",
             "m - Multiply",
 
+
             "pow - Power",
             "log - Logarithm",
             "fact - Sum of 2 factorials"
@@ -18,20 +19,24 @@ namespace GitExercise
 
         };
 
+            "d - Divide",
+            "sabs - Subtract Abs",
+
+
+        };
         public static void Add(double a, double b)
         {
             Console.WriteLine($"{a} + {b} = {a + b}");
         }
-
         public static void Multiply(double a, double b)
         {
             Console.WriteLine($"{a} x {b} = {a * b}");
         }
-
         public static void Subtract(double a, double b)
         {
             Console.WriteLine($"{a} - {b} = {a - b}");
         }
+
 
         public static void Power(double a, double b)
         {
@@ -62,6 +67,17 @@ namespace GitExercise
             Console.WriteLine($"{a}%{b}={a%b}");
         }
 		
+
+        public static void Divide(double a, double b)
+        {
+            Console.WriteLine($"{a} : {b} = {a / b}");
+        }
+
+        public static void SubtractAbs(double a, double b)
+        {
+            Console.WriteLine($"|{a} - {b}| = {Math.Abs(a - b)}");
+        }
+
 
     }
 }
